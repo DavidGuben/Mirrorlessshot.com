@@ -9,7 +9,7 @@ const Main = () => (
         <Switch>
             <Route exact path='/' component={Body} />
         </Switch>
-    </main>    
+    </main> 
 )
 
 export default Main

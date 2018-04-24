@@ -29,7 +29,7 @@ class Nav extends Component {
     render() {
         return (
 
-                <Navbar color="info-color-dark" dark className="navbar navbar-expand-lg" scrolling>
+                <Navbar color="indigo" dark className="navbar navbar-expand-lg" scrolling>
                 <Container>
                     <NavbarBrand href="/">
                         <strong>DG</strong>

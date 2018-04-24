@@ -5,9 +5,9 @@ import './../App.css';
 class Intro extends Component {
     render() {
         return (
-            <View className="hm-blue-strong">
+            <View>
                 <div className="intro z-depth-1">
-                <Mask className="" />
+                <Mask overlay="black-light" className="" />
                 </div>
             </View>
         );

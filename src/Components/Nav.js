@@ -1,5 +1,10 @@
 import React, {Component} from 'react';
-import { Navbar, NavbarBrand, NavbarNav, NavbarToggler, Collapse, NavItem, NavLink, Dropdown, DropdownToggle, DropdownMenu, DropdownItem, Container } from 'mdbreact';
+import { 
+    Navbar, NavbarBrand, NavbarNav, NavbarToggler,
+    Collapse, NavItem, NavLink,
+    Dropdown, DropdownToggle, DropdownMenu,
+    DropdownItem, Container
+} from 'mdbreact'
 
 
 class Nav extends Component {
@@ -28,11 +33,10 @@ class Nav extends Component {
 
     render() {
         return (
-
                 <Navbar color="indigo" dark className="navbar navbar-expand-lg" scrolling>
                 <Container>
                     <NavbarBrand href="/">
-                        <strong>DG</strong>
+                        <strong>Mirrorless Shot</strong>
                     </NavbarBrand>
                     { !this.state.isWideEnough && <NavbarToggler onClick = { this.onClick } />}
                     <Collapse isOpen = { this.state.collapse } navbar>
@@ -42,9 +46,9 @@ class Nav extends Component {
                           </NavItem>
                           <NavItem>
                               <Dropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>
-                              <DropdownToggle nav caret>Contact</DropdownToggle>
+                              <DropdownToggle nav caret>Gallery</DropdownToggle>
                               <DropdownMenu>
-                                  <DropdownItem href="#">Action</DropdownItem>
+                                  <DropdownItem href="#">Web Design</DropdownItem>
                                   <DropdownItem href="#">Another Action</DropdownItem>
                                   <DropdownItem href="#">Something else here</DropdownItem>
                                   <DropdownItem href="#">Something else here</DropdownItem>
@@ -55,8 +59,6 @@ class Nav extends Component {
                     </Collapse>
                 </Container>
                 </Navbar>
-
-
         );
     }
 }

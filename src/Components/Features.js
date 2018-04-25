@@ -1,5 +1,5 @@
-import React, {Component} from 'react';
-import {Container} from 'mdbreact';
+import React, {Component} from 'react'
+import {Container} from 'mdbreact'
 import { Button, Card, CardBody, CardImage, CardTitle, CardText } from 'mdbreact'
 
 class Features extends Component {

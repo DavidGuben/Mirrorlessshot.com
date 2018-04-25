@@ -42,12 +42,10 @@ class Gallery extends Component {
     render() {
         return(
             <Container>
-
-                <h2 className="mb-5 font-weight-bold text-center">Gallery Heading</h2>
-
+                <h2 className="mb-5 font-weight-bold text-center">Gallery</h2>
+                
                 <div className="row">
-
-                <div className="col-md-7 mb-4">
+                <div className="col-md-12 mb-4">
                 <Carousel
                   activeItem={this.state.activeItem}
                   next={this.next}
@@ -99,21 +97,7 @@ class Gallery extends Component {
                 </Carousel>
                 </div>
 
-                <div className="col-md-5">
-                    <a href="" className="teal-text">
-                    <h6 className="pb-1"><i className="fa fa-heart"></i><strong> Lifestyle</strong></h6>
-                    </a>
-                    <h4 className="mb-3"><strong>This is the title of the news</strong></h4>
-                    <p>Text description</p>
-
-                    <p>Second paragraph.</p>
-
-                    <p>By <a><strong>David G.</strong></a>, 26/08/2016</p>
-                    <a className="btn btn-primary btn-md">Read more</a>
-
-                </div>
-
-                </div>
+              </div>
               </Container>
         )
     }

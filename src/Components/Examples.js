@@ -5,7 +5,7 @@ class Examples extends Component {
     render() {
         return (
             <Container>
-                <h2 style={{ marginBottom: '50px' }}>Projects</h2>
+                <h2 style={{ marginBottom: '50px' }}>Gallery</h2>
             <div className="row text-center">
               <div className="col-lg-4 col-md-12 mb-4">
                 <div className="view overlay z-depth-1-half">

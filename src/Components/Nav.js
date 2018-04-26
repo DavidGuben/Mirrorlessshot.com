@@ -5,6 +5,7 @@ import {
     Dropdown, DropdownToggle, DropdownMenu,
     DropdownItem, Container
 } from 'mdbreact'
+import logo from './../Images/logo.svg'
 
 
 class Nav extends Component {
@@ -33,10 +34,10 @@ class Nav extends Component {
 
     render() {
         return (
-                <Navbar color="indigo" dark className="navbar navbar-expand-lg" scrolling>
+                <Navbar style={{ backgroundColor: '#001427' }} dark className="navbar navbar-expand-lg" scrolling>
                 <Container>
-                    <NavbarBrand href="/">
-                        <strong>Mirrorless Shot</strong>
+                <img src={logo} alt="logo" style={{ width: '55px', height: '55px' }} />
+                    <NavbarBrand>
                     </NavbarBrand>
                     { !this.state.isWideEnough && <NavbarToggler onClick = { this.onClick } />}
                     <Collapse isOpen = { this.state.collapse } navbar>
@@ -48,10 +49,10 @@ class Nav extends Component {
                               <Dropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>
                               <DropdownToggle nav caret>Gallery</DropdownToggle>
                               <DropdownMenu>
-                                  <DropdownItem href="#">Web Design</DropdownItem>
-                                  <DropdownItem href="#">Another Action</DropdownItem>
-                                  <DropdownItem href="#">Something else here</DropdownItem>
-                                  <DropdownItem href="#">Something else here</DropdownItem>
+                                  <DropdownItem href="#">Italy</DropdownItem>
+                                  <DropdownItem href="#">Pennsylvania</DropdownItem>
+                                  <DropdownItem href="#">New York</DropdownItem>
+                                  <DropdownItem href="#">New Jersey</DropdownItem>
                               </DropdownMenu>
                               </Dropdown>
                           </NavItem>

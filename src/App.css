@@ -11,6 +11,10 @@
 
 }
 
+.intro-text {
+  text-shadow: 2px 2px #000000;
+}
+
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;

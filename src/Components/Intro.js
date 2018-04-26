@@ -8,7 +8,7 @@ class Intro extends Component {
             <View>
                 <div className="intro z-depth-1">
                 <Mask overlay="black-light" className="flex-center">
-                    <p className="white-text">Mirrorless Shot</p>
+                    <h1 className="white-text intro-text">Mirrorless Shot</h1>
                 </Mask>
                 </div>
             </View>

@@ -7,19 +7,20 @@ class Features extends Component {
         return (
             <Container>
             <div id="best-features" className="text-center">
-                <h2 style={{ marginTop: '20px' }}>Services</h2>
+                <h2 style={{ marginTop: '20px' }}>Recent Posts</h2>
                 <div className="row d-flex justify-content-center mb-4">
                 <div className="col-md-8">
-                    <p className="grey-text">Website creation</p>
+                    <p className="grey-text">Current travels</p>
                 </div>
             </div>
 
             <div className="row">
-            <div className="col-md-4 mb-5">
+            <div className="col-md-4 mb-8">
             <Card>
                 <CardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20%282%29.jpg" />
+                
                 <CardBody>
-                <CardTitle>Create</CardTitle>
+                <CardTitle>Italy</CardTitle>
                 <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
                 <Button className="btn btn-primary btn-sm" href="#">Button</Button>
                 </CardBody>
@@ -29,8 +30,9 @@ class Features extends Component {
             <div className="col-md-4 mb-5">
             <Card>
                 <CardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20%282%29.jpg" />
+
                 <CardBody>
-                <CardTitle>Develop</CardTitle>
+                <CardTitle>Pennsylvania</CardTitle>
                 <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
                 <Button className="btn btn-primary btn-sm" href="#">Button</Button>
                 </CardBody>
@@ -40,8 +42,9 @@ class Features extends Component {
             <div className="col-md-4 mb-5">
             <Card>
                 <CardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20%282%29.jpg" />
+
                 <CardBody>
-                <CardTitle>Publish</CardTitle>
+                <CardTitle>Italy</CardTitle>
                 <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
                 <Button className="btn btn-primary btn-sm" href="#">Button</Button>
                 </CardBody>

@@ -16,9 +16,10 @@ class Features extends Component {
                 </div>
 
                 <div className="row">
-                <div className="col-md-4 mb-8">
+                <div className="col-md-4 mb-5">
                 <Card>
-                    <CardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20%282%29.jpg" />
+                    <CardImage className="img-fluid" 
+                    src={require('./../Images/italy-arena.jpg')} />
                 
                     <CardBody>
                     <CardTitle>Italy</CardTitle>
@@ -30,7 +31,8 @@ class Features extends Component {
 
                 <div className="col-md-4 mb-5">
                 <Card>
-                    <CardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20%282%29.jpg" />
+                    <CardImage className="img-fluid" 
+                    src={require('./../Images/italy-boat.jpg')} />
 
                     <CardBody>
                     <CardTitle>Pennsylvania</CardTitle>
@@ -42,7 +44,8 @@ class Features extends Component {
 
                 <div className="col-md-4 mb-5">
                 <Card>
-                    <CardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20%282%29.jpg" />
+                    <CardImage className="img-fluid" 
+                    src={require('./../Images/italy-boats.jpg')} />
 
                     <CardBody>
                     <CardTitle>Italy</CardTitle>

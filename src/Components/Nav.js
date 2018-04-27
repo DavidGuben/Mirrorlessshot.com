@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, {Component} from 'react'
 import { 
     Navbar, NavbarBrand, NavbarNav, NavbarToggler,
     Collapse, NavItem, NavLink,
@@ -36,7 +36,7 @@ class Nav extends Component {
         return (
                 <Navbar style={{ backgroundColor: '#001427' }} dark className="navbar navbar-expand-lg" scrolling>
                 <Container>
-                <img src={logo} alt="logo" style={{ width: '55px', height: '55px' }} />
+                <img src={logo} alt="logo" style={{ width: '50px', height: '50px' }} className="animated fadeIn" />
                     <NavbarBrand>
                     </NavbarBrand>
                     { !this.state.isWideEnough && <NavbarToggler onClick = { this.onClick } />}
@@ -64,4 +64,4 @@ class Nav extends Component {
     }
 }
 
-export default Nav;
+export default Nav

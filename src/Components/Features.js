@@ -45,7 +45,7 @@ class Features extends Component {
                 <div className="col-md-4 mb-5">
                 <Card>
                     <CardImage className="img-fluid" 
-                    src={require('./../Images/italy-boats.jpg')} />
+                    src={require('./../Images/italy-boat.jpg')} />
 
                     <CardBody>
                     <CardTitle>Italy</CardTitle>

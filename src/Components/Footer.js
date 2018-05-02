@@ -5,7 +5,7 @@ class Footer extends Component {
         return (
             <footer className="page-footer unique-color-dark pt-0"> 
             <div className="primary-color">
-                <div className="container">     
+                <div className="container wow fadeIn">     
                     <div className="row py-4 d-flex align-items-center">
                         <div className="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
                             <h6 className="mb-0 white-text">Get connected with us on social networks!</h6>
@@ -30,7 +30,7 @@ class Footer extends Component {
                     </div>
                 </div>
             </div>
-            <div className="container mt-5 mb-4 text-center text-md-left">
+            <div className="container mt-5 mb-4 text-center text-md-left wow fadeIn">
               <div className="row mt-3">
 
                 <div className="col-md-3 col-lg-4 col-xl-3 mb-4">

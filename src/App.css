@@ -11,6 +11,14 @@
 
 }
 
+.featured-camera {
+  position: relative;
+  width: 220px;
+  height: 150px;
+  top: 100px;
+  margin: 0 auto;
+}
+
 .intro-text {
   text-shadow: 2px 2px #000000;
 }

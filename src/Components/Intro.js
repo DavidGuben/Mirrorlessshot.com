@@ -7,14 +7,11 @@ class Intro extends Component {
         return (
             <View>
                 <div className="intro z-depth-1 animated fadeIn">
-                <div className="featured-camera" style={{width: '1000px', height: '1000px', padding: '50px', float: 'right'}}>
                     <img 
-                     src={require('./../Images/sony-camera.jpg')}
-                     alt="featured camera"
-                     className="col-md-6"
-                    />
-                </div>
-                <Mask overlay="" className="flex-center" />
+                    src={require('./../Images/sony-camera.jpg')}
+                    alt="Featured Camera"
+                    className="featured-camera" />
+                    <Mask overlay="cyan-slight" className="flex-center" />
                 </div>
             </View>
         );

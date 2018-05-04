@@ -47,7 +47,7 @@ class Nav extends Component {
                           </NavItem>
                           <NavItem>
                               <Dropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>
-                              <DropdownToggle nav caret>Gallery</DropdownToggle>
+                              <DropdownToggle nav caret>Location</DropdownToggle>
                               <DropdownMenu>
                                   <DropdownItem href="#">Italy</DropdownItem>
                                   <DropdownItem href="#">Pennsylvania</DropdownItem>

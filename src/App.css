@@ -7,16 +7,16 @@
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-size:cover;
-  height: 660px;
-
+  height: 600px;
 }
 
 .featured-camera {
   position: relative;
-  width: 220px;
-  height: 150px;
-  top: 100px;
-  margin: 0 auto;
+  float: right;
+  width: 370px;
+  height: 250px;
+  top: 120px;
+  right: 100px;
 }
 
 .intro-text {

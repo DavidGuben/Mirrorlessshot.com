@@ -10,7 +10,7 @@ class Intro extends Component {
                     <img 
                     src={require('./../Images/sony-camera.jpg')}
                     alt="Featured Camera"
-                    className="featured-camera" />
+                    className="featured-camera z-depth-2" />
                     <Mask overlay="cyan-slight" className="flex-center" />
                 </div>
             </View>

@@ -41,7 +41,7 @@ class Gallery extends Component {
       }
     render() {
         return(
-            <Container className="wow fadeIn">
+            <Container className="wow fadeIn" style={{paddingBottom: '40px'}}>
                 <h2 className="mb-5 font-weight-bold text-center">Gallery</h2>
                 
                 <div className="row">

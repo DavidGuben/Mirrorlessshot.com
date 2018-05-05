@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import {Container} from 'mdbreact'
-import { Button, Card, CardBody, CardImage, CardTitle, CardText } from 'mdbreact'
+import { Button, Card, CardBody, CardImage, CardTitle, CardText, View } from 'mdbreact'
 
 class Features extends Component {
 
@@ -16,7 +16,9 @@ class Features extends Component {
                 </div>
 
                 <div className="row">
+                
                 <div className="col-md-4 mb-5">
+                <View zoom>
                 <Card>
                     <CardImage className="img-fluid" 
                     src={require('./../Images/italy-arena.jpg')} />
@@ -27,9 +29,11 @@ class Features extends Component {
                     <Button className="btn btn-primary btn-sm" href="#">Button</Button>
                     </CardBody>
                 </Card>
+                </View>
                 </div>
-
+                
                 <div className="col-md-4 mb-5">
+                <View zoom>
                 <Card>
                     <CardImage className="img-fluid" 
                     src={require('./../Images/italy-boat.jpg')} />
@@ -40,9 +44,11 @@ class Features extends Component {
                     <Button className="btn btn-primary btn-sm" href="#">Button</Button>
                     </CardBody>
                 </Card>
+                </View>
                 </div>
 
                 <div className="col-md-4 mb-5">
+                <View zoom>
                 <Card>
                     <CardImage className="img-fluid" 
                     src={require('./../Images/italy-boat.jpg')} />
@@ -53,7 +59,9 @@ class Features extends Component {
                     <Button className="btn btn-primary btn-sm" href="#">Button</Button>
                     </CardBody>
                 </Card>
+                </View>
                 </div>
+
                 </div>
             </div>
             </Container>

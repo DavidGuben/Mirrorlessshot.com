@@ -1,12 +1,11 @@
 import React, {Component} from 'react'
 import { 
-    Navbar, NavbarBrand, NavbarNav, NavbarToggler,
-    Collapse, NavItem, NavLink,
-    Dropdown, DropdownToggle, DropdownMenu,
-    DropdownItem, Container
+    Navbar, NavbarBrand, NavbarNav,
+    NavbarToggler, Collapse, NavItem,
+    NavLink, Dropdown, DropdownToggle, 
+    DropdownMenu, DropdownItem, Container
 } from 'mdbreact'
 import logo from './../Images/logo.svg'
-
 
 class Nav extends Component {
     constructor(props) {

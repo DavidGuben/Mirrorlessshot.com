@@ -11,12 +11,39 @@
 }
 
 .featured-camera {
-  position: relative;
   float: right;
-  width: 370px;
-  height: 250px;
+  position: relative;
   top: 120px;
   right: 100px;
+}
+
+.camera {
+  width: 365px;
+  height: 250px;
+  z-index: 1;
+}
+
+.featured-camera-text {
+  position: relative;
+  bottom: 5px;
+  background-color: #391e79;
+  padding-top: 17px;
+  padding-bottom: 3px;
+  color: #ffffff;
+  z-index: 0;
+}
+
+.featured-camera-price {
+  position: relative;
+  padding: 2px;
+  width: 50px;
+  height: 26px;
+  top: 240px;
+  left: 300px;
+  background-color: #00000074;
+  color: #ffffff;
+  font-weight: bolder;
+  z-index: 2;
 }
 
 .intro-text {

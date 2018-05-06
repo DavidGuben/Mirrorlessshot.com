@@ -3,7 +3,7 @@ import Nav from './Components/Nav'
 import './App.css'
 
 import Intro from './Components/Intro'
-import Router from './Components/Router'
+import Router from './Components/Router`'
 import Gallery from './Components/Gallery'
 import Footer from './Components/Footer'
 

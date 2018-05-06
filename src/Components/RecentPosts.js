@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import {Container} from 'mdbreact'
-import { Button, Card, CardBody, CardImage, CardTitle, CardText, View } from 'mdbreact'
+import {Button, Card, CardBody, CardImage, CardTitle, CardText, View} from 'mdbreact'
 
 class RecentPosts extends Component {
 
@@ -27,7 +27,7 @@ class RecentPosts extends Component {
                     <CardBody>
                     <CardTitle>Italy</CardTitle>
                     <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-                    <Button className="btn btn-primary btn-sm" href="#">Read more</Button>
+                    <Button className="btn btn-primary btn-sm" src="/Post">Read more</Button>
                     </CardBody>
                 </Card>
                 </div>

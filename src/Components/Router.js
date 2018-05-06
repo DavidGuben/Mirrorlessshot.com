@@ -1,13 +1,15 @@
 import React from 'react'
 import {Switch, Route} from 'react-router-dom'
 
-import Body from './Body'
-import Features from './Features'
+import RecentPosts from './RecentPosts'
+import TestPost from './TestPost'
+
 
 const Router = () => (
     <main>
         <Switch>
-            <Route exact path='/' component={Body} />
+            <Route exact path='/' component={RecentPosts} />
+            <Route exact path='/Post' component={TestPost}/>
         </Switch>
     </main> 
 )

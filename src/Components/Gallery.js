@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import { Container, Carousel, CarouselCaption, CarouselControl, CarouselInner, CarouselItem } from 'mdbreact';
+import {Container, Carousel, CarouselCaption, CarouselControl, CarouselInner, CarouselItem} from 'mdbreact'
 import './../App.css'
 
 

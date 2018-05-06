@@ -23,9 +23,9 @@ class ModalPage extends React.Component {
         <Button color="danger" onClick={this.toggle}>Modal</Button>
 
         <Modal isOpen={this.state.modal} toggle={this.toggle}>
-          <ModalHeader toggle={this.toggle}>Modal title</ModalHeader>
+          <ModalHeader toggle={this.toggle}>Post title</ModalHeader>
           <ModalBody>
-            (...)
+            Post Content
           </ModalBody>
           <ModalFooter>
             <Button color="secondary" onClick={this.toggle}>Close</Button>{' '}

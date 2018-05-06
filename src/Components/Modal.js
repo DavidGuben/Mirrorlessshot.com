@@ -1,5 +1,5 @@
-import React from 'react';
-import { Container, Button, Modal, ModalBody, ModalHeader, ModalFooter } from 'mdbreact';
+import React from 'react'
+import { Container, Button, Modal, ModalBody, ModalHeader, ModalFooter } from 'mdbreact'
 
 
 class ModalPage extends React.Component {
@@ -37,4 +37,4 @@ class ModalPage extends React.Component {
   }
 }
 
-export default ModalPage;
+export default ModalPage

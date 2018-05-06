@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import {Container} from 'mdbreact'
 import { Button, Card, CardBody, CardImage, CardTitle, CardText, View } from 'mdbreact'
 
-class Features extends Component {
+class RecentPosts extends Component {
 
     render() {
         return (
@@ -68,4 +68,4 @@ class Features extends Component {
         )
     }
 }
-export default Features
+export default RecentPosts

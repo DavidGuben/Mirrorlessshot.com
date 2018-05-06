@@ -27,7 +27,7 @@ class RecentPosts extends Component {
                     <CardBody>
                     <CardTitle>Italy</CardTitle>
                     <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-                    <Button className="btn btn-primary btn-sm" src="/Post">Read more</Button>
+                    <Button className="btn btn-primary btn-sm" href="/Post">Read more</Button>
                     </CardBody>
                 </Card>
                 </div>

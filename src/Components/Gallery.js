@@ -2,7 +2,6 @@ import React, {Component} from 'react'
 import {Container, Carousel, CarouselCaption, CarouselControl, CarouselInner, CarouselItem} from 'mdbreact'
 import './../App.css'
 
-
 class Gallery extends Component {
     constructor(props) {
         super(props);

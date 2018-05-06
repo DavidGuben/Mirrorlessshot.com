@@ -1,6 +1,5 @@
 import React from 'react'
-import { Container, Button, Modal, ModalBody, ModalHeader, ModalFooter } from 'mdbreact'
-
+import {Container, Button, Modal, ModalBody, ModalHeader, ModalFooter} from 'mdbreact'
 
 class ModalPage extends React.Component {
   constructor(props) {
@@ -22,6 +21,7 @@ class ModalPage extends React.Component {
     return (
       <Container>
         <Button color="danger" onClick={this.toggle}>Modal</Button>
+
         <Modal isOpen={this.state.modal} toggle={this.toggle}>
           <ModalHeader toggle={this.toggle}>Modal title</ModalHeader>
           <ModalBody>

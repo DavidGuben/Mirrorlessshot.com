@@ -4,7 +4,7 @@ import {Switch, Route} from 'react-router-dom'
 import Body from './Body'
 import Features from './Features'
 
-const Main = () => (
+const Router = () => (
     <main>
         <Switch>
             <Route exact path='/' component={Body} />
@@ -12,4 +12,4 @@ const Main = () => (
     </main> 
 )
 
-export default Main
+export default Router

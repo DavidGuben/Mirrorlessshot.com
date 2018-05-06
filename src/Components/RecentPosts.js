@@ -20,14 +20,14 @@ class RecentPosts extends Component {
                 <div className="col-md-4 mb-5">
                 <Card>
                     <View zoom>
-                    <CardImage className="img-fluid" 
-                    src={require('./../Images/italy-arena.jpg')} />
+                        <CardImage className="img-fluid" 
+                        src={require('./../Images/italy-arena.jpg')} />
                     </View>
                     
                     <CardBody>
                     <CardTitle>Italy</CardTitle>
                     <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-                    <Button className="btn btn-primary btn-sm" href="#">Button</Button>
+                    <Button className="btn btn-primary btn-sm" href="#">Read more</Button>
                     </CardBody>
                 </Card>
                 </div>
@@ -35,14 +35,14 @@ class RecentPosts extends Component {
                 <div className="col-md-4 mb-5">
                 <Card>
                     <View zoom>
-                    <CardImage className="img-fluid" 
-                    src={require('./../Images/italy-boat.jpg')} />
+                        <CardImage className="img-fluid" 
+                        src={require('./../Images/italy-boat.jpg')} />
                     </View>
 
                     <CardBody>
                     <CardTitle>Pennsylvania</CardTitle>
                     <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-                    <Button className="btn btn-primary btn-sm" href="#">Button</Button>
+                    <Button className="btn btn-primary btn-sm" href="#">Read more</Button>
                     </CardBody>
                 </Card>
                 </div>
@@ -50,14 +50,14 @@ class RecentPosts extends Component {
                 <div className="col-md-4 mb-5">
                 <Card>
                     <View zoom>
-                    <CardImage className="img-fluid" 
-                    src={require('./../Images/italy-boat.jpg')} />
+                        <CardImage className="img-fluid" 
+                        src={require('./../Images/italy-boat.jpg')} />
                     </View>
 
                     <CardBody>
                     <CardTitle>Italy</CardTitle>
                     <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-                    <Button className="btn btn-primary btn-sm" href="#">Button</Button>
+                    <Button className="btn btn-primary btn-sm" href="#">Read more</Button>
                     </CardBody>
                 </Card>
                 </div>
@@ -68,4 +68,5 @@ class RecentPosts extends Component {
         )
     }
 }
+
 export default RecentPosts

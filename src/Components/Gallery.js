@@ -41,12 +41,13 @@ class Gallery extends Component {
       }
     render() {
         return(
-            <Container className="wow fadeIn" style={{paddingBottom: '40px'}}>
+            <Container className="wow fadeIn" style={{paddigBottom: '40px'}}>
                 <h2 className="mb-5 font-weight-bold text-center">Gallery</h2>
                 
                 <div className="row">
                 <div className="col-md-12 mb-4">
                 <Carousel
+                  style={{backgroundColor: '#001427'}}
                   activeItem={this.state.activeItem}
                   next={this.next}
                   className="z-depth-1">

@@ -12,7 +12,7 @@ class Footer extends Component {
                         </div>
                         <div className="col-md-6 col-lg-7 text-center text-md-right">
                             <a className="fb-ic ml-0">
-                                <i className="fa fa-facebook white-text mr-4"> </i>
+                                <i className="fa fa-facebook white-text mr-4"> </i> 
                             </a>
                             <a className="tw-ic">
                                 <i className="fa fa-twitter white-text mr-4"> </i>

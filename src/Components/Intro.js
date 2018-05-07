@@ -16,11 +16,13 @@ class Intro extends Component {
                         <p>$499</p>   
                     {/* Close price container */}
                     </div>
-                    {/* Camera img */}
-                    <img
-                    src={require('./../Images/sony-camera.jpg')}
-                    alt="Featured Camera"
-                    className="camera rounded z-depth-1" />
+                    {/* Camera img w/ zoom on hover effect*/}
+                    <View zoom>
+                        <img
+                        src={require('./../Images/sony-camera.jpg')}
+                        alt="Featured Camera"
+                        className="camera rounded z-depth-1" />
+                    </View>
                     {/* Mask overlay for entire intro */}
                     <Mask overlay="cyan-slight" className="flex-center" />
                     {/* Featured camera description container */}

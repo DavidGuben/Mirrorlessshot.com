@@ -9,23 +9,11 @@ class PostCard extends Component {
         };
     
         this.toggle = this.toggle.bind(this);
-        this.toggle1 = this.toggle1.bind(this);
-        this.toggle2 = this.toggle2.bind(this);
         }
     
         toggle() {
             this.setState({
             modal: !this.state.modal
-            });
-        }
-        toggle1() {
-            this.setState({
-            modal1: !this.state.modal1
-          });
-        }
-        toggle2() {
-            this.setState({
-            modal2: !this.state.modal2
             });
         }
 

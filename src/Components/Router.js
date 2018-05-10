@@ -9,7 +9,6 @@ const Router = () => (
         <Switch>
             <Route exact path='/' component={RecentPosts} />
             <Route exact path='/Post' component={TestPost}/>
-            
         </Switch>
     </main> 
 )

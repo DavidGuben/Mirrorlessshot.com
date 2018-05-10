@@ -2,7 +2,6 @@ import React, {Component} from 'react'
 import {Container} from 'mdbreact'
 import PostCard from './PostCard'
 
-
 class RecentPosts extends Component {
     render() {
         return (

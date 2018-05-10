@@ -6,13 +6,13 @@ import PostCard from './PostCard'
 class RecentPosts extends Component {
     render() {
         return (
-            <Container className="wow fadeIn">
+            <Container className="wow fadeIn" style={{paddingTop: '40px'}}>
             <div id="best-features" className="text-center">
                 <h2 style={{ marginTop: '20px' }}>Recent Posts</h2>
                 <div className="row d-flex justify-content-center mb-4">
-                <div className="col-md-8">
-                    <p className="grey-text">Current travels</p>
-                </div>
+                    <div className="col-md-8">
+                        <p className="grey-text">Current travels</p>
+                    </div>
                 </div>
 
                 <div className="row">

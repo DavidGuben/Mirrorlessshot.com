@@ -48,10 +48,10 @@ class RecentPosts extends Component {
                 <div className="col-md-4 mb-5">
                 {/*First Post*/}
                 <PostCard
-                image={require('./../Images/italy-arena.jpg')}
-                heading="Italy"
-                description="Some quick example text to build on the card title and make up the bulk of the card's content."
-                buttonText="Read More" />
+                 image={require('./../Images/italy-arena.jpg')}
+                 heading="Italy"
+                 description="Some quick example text to build on the card title and make up the bulk of the card's content."
+                 buttonText="Read More" />
 
                 {/*First Post Modal*/}
                 <Container>
@@ -72,10 +72,10 @@ class RecentPosts extends Component {
                 <div className="col-md-4 mb-5">
                 {/*Second Post*/}
                 <PostCard
-                image={require('./../Images/italy-arena.jpg')}
-                heading="Penn"
-                description="Some quick example text to build on the card title and make up the bulk of the card's content."
-                buttonText="Read More" />
+                 image={require('./../Images/italy-arena.jpg')}
+                 heading="Penn"
+                 description="Some quick example text to build on the card title and make up the bulk of the card's content."
+                 buttonText="Read More" />
 
                 {/*Second Post Modal*/}
                 <Container>
@@ -96,10 +96,10 @@ class RecentPosts extends Component {
                 <div className="col-md-4 mb-5">
                 {/*Third Post*/}
                 <PostCard
-                image={require('./../Images/italy-boat.jpg')}
-                heading="Italy"
-                description="Some quick example text to build on the card title and make up the bulk of the card's content."
-                buttonText="Read More" />
+                 image={require('./../Images/italy-boat.jpg')}
+                 heading="Italy"
+                 description="Some quick example text to build on the card title and make up the bulk of the card's content."
+                 buttonText="Read More" />
 
                 {/*Third Post Modal*/}
                 <Container>

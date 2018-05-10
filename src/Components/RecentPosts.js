@@ -1,5 +1,7 @@
 import React, {Component} from 'react'
 import {Container, Button, Modal, ModalBody, ModalHeader, ModalFooter, Card, CardBody, CardImage, CardTitle, CardText, View} from 'mdbreact'
+import PostCard from './PostCard'
+
 
 class RecentPosts extends Component {
     constructor(props) {
@@ -45,18 +47,11 @@ class RecentPosts extends Component {
                 
                 <div className="col-md-4 mb-5">
                 {/*First Post*/}
-                <Card>
-                    <View zoom>
-                        <CardImage className="img-fluid" 
-                        src={require('./../Images/italy-arena.jpg')} />
-                    </View>
-                    
-                    <CardBody>
-                    <CardTitle>Italy</CardTitle>
-                    <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-                    <Button className="btn btn-primary btn-sm" onClick={this.toggle}>Read more</Button>
-                    </CardBody>
-                </Card>
+                <PostCard
+                image={require('./../Images/italy-arena.jpg')}
+                heading="Italy"
+                description="Some quick example text to build on the card title and make up the bulk of the card's content."
+                buttonText="Read More" />
 
                 {/*First Post Modal*/}
                 <Container>
@@ -76,18 +71,11 @@ class RecentPosts extends Component {
                 
                 <div className="col-md-4 mb-5">
                 {/*Second Post*/}
-                <Card>
-                    <View zoom>
-                        <CardImage className="img-fluid" 
-                        src={require('./../Images/italy-boat.jpg')} />
-                    </View>
-
-                    <CardBody>
-                    <CardTitle>Pennsylvania</CardTitle>
-                    <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-                    <Button className="btn btn-primary btn-sm" onClick={this.toggle1}>Read more</Button>
-                    </CardBody>
-                </Card>
+                <PostCard
+                image={require('./../Images/italy-arena.jpg')}
+                heading="Penn"
+                description="Some quick example text to build on the card title and make up the bulk of the card's content."
+                buttonText="Read More" />
 
                 {/*Second Post Modal*/}
                 <Container>
@@ -107,18 +95,11 @@ class RecentPosts extends Component {
 
                 <div className="col-md-4 mb-5">
                 {/*Third Post*/}
-                <Card>
-                    <View zoom>
-                        <CardImage className="img-fluid" 
-                        src={require('./../Images/italy-boat.jpg')} />
-                    </View>
-
-                    <CardBody>
-                    <CardTitle>Italy</CardTitle>
-                    <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-                    <Button className="btn btn-primary btn-sm" onClick={this.toggle2}>Read more</Button>
-                    </CardBody>
-                </Card>
+                <PostCard
+                image={require('./../Images/italy-boat.jpg')}
+                heading="Italy"
+                description="Some quick example text to build on the card title and make up the bulk of the card's content."
+                buttonText="Read More" />
 
                 {/*Third Post Modal*/}
                 <Container>

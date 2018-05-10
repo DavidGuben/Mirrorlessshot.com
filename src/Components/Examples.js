@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import {Container} from 'mdbreact'
+import Card from './Card'
 
 class Examples extends Component {
     render() {
@@ -19,15 +20,9 @@ class Examples extends Component {
               </div>
 
               <div className="col-lg-4 col-md-6 mb-4">
-                <div className="view overlay z-depth-1-half">
-                  <img src="https://mdbootstrap.com/img/Photos/Others/images/49.jpg" className="img-fluid" alt="" />
-                  <a href="#!">
-                    <div className="mask rgba-white-slight"></div>
-                  </a>
-                </div>
-
-              <h4 className="my-4 font-weight-bold">Heading</h4>
-              <p className="grey-text">Lorem ipsum description.</p>
+                <Card 
+                 header="Heading"
+                 description="Lorem ipsum." />
               </div>
 
               <div className="col-lg-4 col-md-6 mb-4">

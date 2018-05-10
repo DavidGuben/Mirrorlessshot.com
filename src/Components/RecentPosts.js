@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import {Container, Button, Modal, ModalBody, ModalHeader, ModalFooter, Card, CardBody, CardImage, CardTitle, CardText, View} from 'mdbreact'
+import {Container} from 'mdbreact'
 import PostCard from './PostCard'
 
 

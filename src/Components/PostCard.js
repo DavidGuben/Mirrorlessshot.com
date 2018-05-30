@@ -10,7 +10,7 @@ class PostCard extends Component {
           modal: false
         }
         
-        this.toggle = this.toggle.bind(this);
+        this.toggle = this.toggle.bind(this)
         }
     
         toggle() {

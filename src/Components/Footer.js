@@ -11,7 +11,7 @@ class Footer extends Component {
                     <h6 className="mb-0 white-text">Get connected with us on social media</h6>
                   </div>
                   <div className="col-md-6 col-lg-7 text-center text-md-right">
-                    <a className="fb-ic ml-0">
+                    <a className="fb-ic ml-0" href="https://www.facebook.com/MirrorlessShot/" target="_blank">
                       <i className="fa fa-facebook white-text mr-4"> </i> 
                     </a>
                     <a className="tw-ic">

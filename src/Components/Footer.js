@@ -100,12 +100,13 @@ class Footer extends Component {
                     <i className="fa fa-envelope mr-3"></i> 1231 133 1454
                   </p>
                 </div>
-                
+
               </div>
             </div>
             <div className="footer-copyright py-3 text-center">
               2018 Copyright: <a href="https://davidguben.com">David G.</a>
             </div>
+            
             </footer>
         )
     }

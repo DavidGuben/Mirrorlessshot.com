@@ -1,5 +1,7 @@
 import React, {Component} from 'react'
-import {Card,View,CardBody,CardText,CardTitle,CardImage,Button,Container,Modal,ModalHeader,ModalBody,ModalFooter} from 'mdbreact'
+import {Card,CardBody,CardText,CardTitle,CardImage,
+        Modal,ModalHeader,ModalBody,ModalFooter,
+        Button,Container,View} from 'mdbreact'
 
 class PostCard extends Component {
     constructor(props) {

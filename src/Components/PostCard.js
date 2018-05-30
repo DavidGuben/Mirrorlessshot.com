@@ -5,10 +5,10 @@ import {Card,CardBody,CardText,CardTitle,CardImage,
 
 class PostCard extends Component {
     constructor(props) {
-        super(props);
+        super(props)
         this.state = {
           modal: false
-        };
+        }
         
         this.toggle = this.toggle.bind(this);
         }
@@ -16,7 +16,7 @@ class PostCard extends Component {
         toggle() {
             this.setState({
             modal: !this.state.modal
-            });
+            })
         }
 
     render() {

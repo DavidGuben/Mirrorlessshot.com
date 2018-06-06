@@ -45,8 +45,17 @@ class Nav extends Component {
                               <NavLink to="/">Home</NavLink>
                           </NavItem>
                           <NavItem>
+                            <NavLink to="/Gallery">Gallery</NavLink>
+                          </NavItem>
+                          <NavItem>
+                            <NavLink to="/Cameras">Cameras</NavLink>
+                          </NavItem>
+                          <NavItem>
+                            <NavLink to="/News">News</NavLink>
+                          </NavItem>
+                          <NavItem>
                               <Dropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>
-                              <DropdownToggle nav caret>Location</DropdownToggle>
+                              <DropdownToggle nav caret>Destinations</DropdownToggle>
                               <DropdownMenu>
                                   <DropdownItem href="#">Italy</DropdownItem>
                                   <DropdownItem href="#">Pennsylvania</DropdownItem>

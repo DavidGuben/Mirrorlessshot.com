@@ -41,63 +41,72 @@ class Footer extends Component {
                     <strong>Mirrorless Shot</strong>
                   </h6>
                   <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" />
-                  <p></p>
+                  <p>
+                    <a href="!#">Home</a>
+                  </p>
+                  <p>
+                    <a href="!#">Gallery</a>
+                  </p>
+                  <p>
+                    <a href="!#">Cameras</a>
+                  </p>
+                  <p>
+                    <a href="!#">News</a>
+                  </p>
+                  <p>
+                    <a href="!#">Destinations</a>
+                  </p>
                 </div>
 
                 <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
                   <h6 className="text-uppercase font-weight-bold">
-                    <strong>Products</strong>
+                    <strong>Destinations</strong>
                   </h6>
                   <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" />
                   <p>
-                    <a href="!#">Bootstrap</a>
+                    <a href="!#">Italy</a>
                   </p>
                   <p>
-                    <a href="!#">Wordpress</a>
+                    <a href="!#">Pennsylvania</a>
                   </p>
                   <p>
-                    <a href="!#">David</a>
+                    <a href="!#">New York</a>
                   </p>
                   <p>
-                    <a href="!#">Cool thing</a>
+                    <a href="!#">New Jersey</a>
                   </p>
                 </div>
         
                 <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
                   <h6 className="text-uppercase font-weight-bold">
-                    <strong>Useful links</strong>
+                    <strong>Social Media</strong>
                   </h6>
                   <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" />
                   <p>
-                    <a href="!#">Your account</a>
+                    <a href="!#">Facebook</a>
                   </p>
                   <p>
-                    <a href="!#">Become an affiliate</a>
+                    <a href="!#">Twitter</a>
                   </p>
                   <p>
-                    <a href="!#">Shipping rates</a>
+                    <a href="!#">Instagram</a>
                   </p>
                   <p>
-                    <a href="!#">Help</a>
+                    <a href="!#">LinkedIn</a>
                   </p>
                 </div>
         
                 <div className="col-md-4 col-lg-3 col-xl-3">
                   <h6 className="text-uppercase font-weight-bold">
-                    <strong>Contact</strong>
+                    <strong>Contact Details</strong>
                   </h6>
                   <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" />
                   <p>
                     <i className="fa fa-home mr-3"></i> New York, NY 10012 US
                   </p>
                   <p>
-                    <i className="fa fa-envelope mr-3"></i> david@exaple.com
-                  </p>
-                  <p>
-                    <i className="fa fa-envelope mr-3"></i> 123 456 1231
-                  </p>
-                  <p>
-                    <i className="fa fa-envelope mr-3"></i> 1231 133 1454
+                    <i className="fa fa-envelope mr-3"></i>
+                    <a href="!#">davidjg6@gmail.com</a>
                   </p>
                 </div>
 

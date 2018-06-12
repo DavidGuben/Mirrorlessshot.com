@@ -35,7 +35,7 @@ class Nav extends Component {
         return (
                 <Navbar style={{ backgroundColor: '#001427' }} dark className="navbar navbar-expand-lg" scrolling>
                 <Container>
-                <img src={logo} alt="logo" style={{ width: '50px', height: '50px' }} className="animated fadeIn" />
+                <img src={logo} alt="logo" style={{ width: '50px', height: '50px' }} className="animated rubberBand" />
                     <NavbarBrand>
                     </NavbarBrand>
                     { !this.state.isWideEnough && <NavbarToggler onClick = { this.onClick } />}

@@ -13,7 +13,7 @@ class Nav extends Component {
         this.state = {
             collapse: false,
             isWideEnough: false,
-            dropdownOpen: false
+            dropdownOpen: false,
         };
     this.onClick = this.onClick.bind(this);
     this.toggle = this.toggle.bind(this);
@@ -35,8 +35,10 @@ class Nav extends Component {
         return (
                 <Navbar style={{ backgroundColor: '#001427' }} dark className="navbar navbar-expand-lg" scrolling>
                 <Container>
-                <img src={logo} alt="logo" style={{ width: '50px', height: '50px' }} className="animated rubberBand" />
+                <img src={logo} alt="logo" style={{ width: '50px', height: '50px',paddingRight: '10px' }} className="animated rubberBand" />
+                    <span style={{color: 'white'}}>Mirrorless Shot</span>
                     <NavbarBrand>
+                        
                     </NavbarBrand>
                     { !this.state.isWideEnough && <NavbarToggler onClick = { this.onClick } />}
                     <Collapse isOpen = { this.state.collapse } navbar>
@@ -68,8 +70,8 @@ class Nav extends Component {
                     </Collapse>
                 </Container>
                 </Navbar>
-        );
-    }
+                )
+            }
 }
 
 export default Nav

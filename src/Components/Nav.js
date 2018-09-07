@@ -5,7 +5,7 @@ import {
     NavLink, Dropdown, DropdownToggle, 
     DropdownMenu, DropdownItem, Container
 } from 'mdbreact'
-import logo from './../Images/logo.svg'
+import logo from './../Images/logo-02.svg'
 
 class Nav extends Component {
     constructor(props) {

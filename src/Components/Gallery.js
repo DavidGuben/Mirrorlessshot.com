@@ -56,8 +56,8 @@ class Gallery extends Component {
                         <div className="mask waves-effect waves-light rgba-white-slight"></div>
                       </div>
                       <CarouselCaption>
-                        <h3 className="h3-responsive">Light mask</h3>
-                        <p>First text</p>
+                        <h3 className="h3-responsive"></h3>
+                        <p></p>
                       </CarouselCaption>
                     </CarouselItem>
                     <CarouselItem itemId="2">
@@ -66,8 +66,8 @@ class Gallery extends Component {
                         <div className="mask"></div>
                       </div>
                       <CarouselCaption>
-                        <h3 className="h3-responsive">Strong mask</h3>
-                        <p>Second text</p>
+                        <h3 className="h3-responsive"></h3>
+                        <p></p>
                       </CarouselCaption>
                     </CarouselItem>
                     <CarouselItem itemId="3">
@@ -76,8 +76,8 @@ class Gallery extends Component {
                         <div className="mask"></div>
                       </div>
                       <CarouselCaption>
-                        <h3 className="h3-responsive">Slight mask</h3>
-                        <p>Third text</p>
+                        <h3 className="h3-responsive"></h3>
+                        <p></p>
                       </CarouselCaption>
                     </CarouselItem>
                     <CarouselItem itemId="4">
@@ -86,8 +86,8 @@ class Gallery extends Component {
                         <div className="mask"></div>
                       </div>
                       <CarouselCaption>
-                        <h3 className="h3-responsive">Sopot Beach</h3>
-                        <p>Taken june 21th by @mattonit</p>
+                        <h3 className="h3-responsive"></h3>
+                        <p></p>
                       </CarouselCaption>
                     </CarouselItem>
                   </CarouselInner>

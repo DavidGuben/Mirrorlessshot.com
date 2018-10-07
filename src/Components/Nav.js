@@ -5,7 +5,7 @@ import {
     NavLink, Dropdown, DropdownToggle, 
     DropdownMenu, DropdownItem, Container
 } from 'mdbreact'
-import logo from './../Images/logo-02.svg'
+import logo from './../Images/logo.svg'
 
 class Nav extends Component {
     constructor(props) {
@@ -36,7 +36,7 @@ class Nav extends Component {
                 <Navbar style={{ backgroundColor: '#001427' }} dark className="navbar navbar-expand-lg" scrolling>
                 <Container>
                 <img src={logo} alt="logo" style={{ width: '50px', height: '50px',paddingRight: '10px' }} className="animated rubberBand" />
-                    <span style={{color: 'white'}}>Mirrorless Shot</span>
+                    
                     <NavbarBrand>
                         
                     </NavbarBrand>

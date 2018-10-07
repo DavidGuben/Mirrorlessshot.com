@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.4df6444a.css",
   "main.css.map": "static/css/main.4df6444a.css.map",
-  "main.js": "static/js/main.316470a1.js",
-  "main.js.map": "static/js/main.316470a1.js.map",
+  "main.js": "static/js/main.8b279cc1.js",
+  "main.js.map": "static/js/main.8b279cc1.js.map",
   "static/media/Roboto-Bold.eot": "static/media/Roboto-Bold.ecdd509c.eot",
   "static/media/Roboto-Bold.ttf": "static/media/Roboto-Bold.e31fcf18.ttf",
   "static/media/Roboto-Bold.woff": "static/media/Roboto-Bold.dc81817d.woff",
@@ -33,6 +33,6 @@
   "static/media/italy-arena.jpg": "static/media/italy-arena.39a26dd6.jpg",
   "static/media/italy-boat.jpg": "static/media/italy-boat.a325ce40.jpg",
   "static/media/italy-cliffside-buildings.jpg": "static/media/italy-cliffside-buildings.58721cdd.jpg",
-  "static/media/logo-02.svg": "static/media/logo-02.c5f62f0e.svg",
+  "static/media/logo.svg": "static/media/logo.fcb15391.svg",
   "static/media/sony-camera.jpg": "static/media/sony-camera.3bac9b1c.jpg"
 }
